@@ -1,0 +1,7 @@
+C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.KEYS\bin\Debug\ForgeBuddy.KEYS.dll.config
+C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.KEYS\bin\Debug\ForgeBuddy.KEYS.dll
+C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.KEYS\bin\Debug\ForgeBuddy.KEYS.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.KEYS\obj\Debug\ForgeBuddy.KEYS.csproj.AssemblyReference.cache
+C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.KEYS\obj\Debug\ForgeBuddy.KEYS.csproj.CoreCompileInputs.cache
+C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.KEYS\obj\Debug\ForgeBuddy.KEYS.dll
+C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.KEYS\obj\Debug\ForgeBuddy.KEYS.pdb

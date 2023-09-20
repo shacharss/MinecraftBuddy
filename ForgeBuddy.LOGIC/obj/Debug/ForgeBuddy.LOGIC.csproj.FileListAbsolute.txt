@@ -1,0 +1,11 @@
+C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.LOGIC\obj\Debug\ForgeBuddy.LOGIC.csproj.AssemblyReference.cache
+C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.LOGIC\obj\Debug\ForgeBuddy.LOGIC.csproj.CoreCompileInputs.cache
+C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.LOGIC\bin\Debug\ForgeBuddy.LOGIC.dll.config
+C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.LOGIC\bin\Debug\ForgeBuddy.LOGIC.dll
+C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.LOGIC\bin\Debug\ForgeBuddy.LOGIC.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.LOGIC\bin\Debug\ForgeBuddy.KEYS.dll
+C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.LOGIC\bin\Debug\ForgeBuddy.KEYS.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.LOGIC\bin\Debug\ForgeBuddy.KEYS.dll.config
+C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.LOGIC\obj\Debug\ForgeBuddy.LOGIC.csproj.CopyComplete
+C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.LOGIC\obj\Debug\ForgeBuddy.LOGIC.dll
+C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.LOGIC\obj\Debug\ForgeBuddy.LOGIC.pdb
