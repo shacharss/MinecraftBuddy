@@ -1,4 +1,4 @@
-﻿namespace ForgeBuddy.GUI
+﻿namespace MinecraftBuddy.GUI
 {
     partial class MainMenuForm
     {
@@ -37,3 +37,4 @@
         #endregion
     }
 }
+

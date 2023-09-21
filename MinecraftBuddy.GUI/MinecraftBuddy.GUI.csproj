@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4F5D7436-5003-458A-8D62-1373863148F7}</ProjectGuid>
+    <ProjectGuid>{FD9901F2-2E9C-4CFB-9299-1406DBD9B41E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ForgeBuddy.GUI</RootNamespace>
-    <AssemblyName>ForgeBuddy.GUI</AssemblyName>
+    <RootNamespace>MinecraftBuddy.GUI</RootNamespace>
+    <AssemblyName>MinecraftBuddy.GUI</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>ForgeBuddy.GUI.Program</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -49,29 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DownloadForm.cs">
+    <Compile Include="MainMenuForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DownloadForm.Designer.cs">
-      <DependentUpon>DownloadForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ForgeForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ForgeForm.Designer.cs">
-      <DependentUpon>ForgeForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ModsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ModsForm.Designer.cs">
-      <DependentUpon>ModsForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ForgeMenuForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ForgeMenuForm.Designer.cs">
-      <DependentUpon>ForgeMenuForm.cs</DependentUpon>
+    <Compile Include="MainMenuForm.Designer.cs">
+      <DependentUpon>MainMenuForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -98,13 +77,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ForgeBuddy.KEYS\ForgeBuddy.KEYS.csproj">
-      <Project>{ae8ac010-85a4-4d44-aa7a-6d04388150d9}</Project>
-      <Name>ForgeBuddy.KEYS</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ForgeBuddy.LOGIC\ForgeBuddy.LOGIC.csproj">
-      <Project>{8d928621-32c4-443e-a9e1-36a4d8d1df13}</Project>
-      <Name>ForgeBuddy.LOGIC</Name>
+    <ProjectReference Include="..\ForgeBuddy.GUI\ForgeBuddy.GUI.csproj">
+      <Project>{4f5d7436-5003-458a-8d62-1373863148f7}</Project>
+      <Name>ForgeBuddy.GUI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

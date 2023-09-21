@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForgeBuddy.LOGIC", "ForgeBu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForgeBuddy.KEYS", "ForgeBuddy.KEYS\ForgeBuddy.KEYS.csproj", "{AE8AC010-85A4-4D44-AA7A-6D04388150D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftBuddy.GUI", "MinecraftBuddy.GUI\MinecraftBuddy.GUI.csproj", "{FD9901F2-2E9C-4CFB-9299-1406DBD9B41E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AE8AC010-85A4-4D44-AA7A-6D04388150D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE8AC010-85A4-4D44-AA7A-6D04388150D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE8AC010-85A4-4D44-AA7A-6D04388150D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD9901F2-2E9C-4CFB-9299-1406DBD9B41E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD9901F2-2E9C-4CFB-9299-1406DBD9B41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD9901F2-2E9C-4CFB-9299-1406DBD9B41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD9901F2-2E9C-4CFB-9299-1406DBD9B41E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

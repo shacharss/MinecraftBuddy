@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace ForgeBuddy.GUI
 {
-    public partial class MainMenuForm : Form
+    public partial class ForgeMenuForm : Form
     {
         // Labels
         private Label m_CurseForgeLabel;
@@ -21,7 +21,7 @@ namespace ForgeBuddy.GUI
         private Button m_ModsButton;
         private Button m_FinishButton;
 
-        public MainMenuForm()
+        public ForgeMenuForm()
         {
             initializeComponents();
             this.Text = "ForgeBuddy";
@@ -69,7 +69,7 @@ namespace ForgeBuddy.GUI
 
             // Initialize Finish Button
             m_FinishButton = new Button();
-            m_FinishButton.Text = "Finish";
+            m_FinishButton.Text = "Back";
             m_FinishButton.Top = m_ModsButton.Bottom + 16;
             m_FinishButton.Left = m_ModsButton.Right - m_FinishButton.Width;
             m_FinishButton.Click += m_CloseForm;
