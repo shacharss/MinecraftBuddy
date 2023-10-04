@@ -1,0 +1,17 @@
+C:\Users\shach\source\repos\MinecraftBuddy\MapBuddy.GUI\bin\Debug\MapBuddy.GUI.exe.config
+C:\Users\shach\source\repos\MinecraftBuddy\MapBuddy.GUI\bin\Debug\MapBuddy.GUI.exe
+C:\Users\shach\source\repos\MinecraftBuddy\MapBuddy.GUI\bin\Debug\MapBuddy.GUI.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\MapBuddy.GUI\obj\Debug\MapBuddy.GUI.csproj.AssemblyReference.cache
+C:\Users\shach\source\repos\MinecraftBuddy\MapBuddy.GUI\obj\Debug\MapBuddy.GUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\shach\source\repos\MinecraftBuddy\MapBuddy.GUI\obj\Debug\MapBuddy.GUI.Properties.Resources.resources
+C:\Users\shach\source\repos\MinecraftBuddy\MapBuddy.GUI\obj\Debug\MapBuddy.GUI.csproj.GenerateResource.cache
+C:\Users\shach\source\repos\MinecraftBuddy\MapBuddy.GUI\obj\Debug\MapBuddy.GUI.csproj.CoreCompileInputs.cache
+C:\Users\shach\source\repos\MinecraftBuddy\MapBuddy.GUI\obj\Debug\MapBuddy.GUI.exe
+C:\Users\shach\source\repos\MinecraftBuddy\MapBuddy.GUI\obj\Debug\MapBuddy.GUI.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\MapBuddy.GUI\bin\Debug\MinecraftBuddy.KEYS.dll
+C:\Users\shach\source\repos\MinecraftBuddy\MapBuddy.GUI\bin\Debug\MinecraftBuddy.KEYS.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\MapBuddy.GUI\obj\Debug\MapBuddy.GUI.csproj.CopyComplete
+C:\Users\shach\source\repos\MinecraftBuddy\MapBuddy.GUI\bin\Debug\MapBuddy.LOGIC.dll
+C:\Users\shach\source\repos\MinecraftBuddy\MapBuddy.GUI\bin\Debug\MapBuddy.KEYS.dll
+C:\Users\shach\source\repos\MinecraftBuddy\MapBuddy.GUI\bin\Debug\MapBuddy.LOGIC.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\MapBuddy.GUI\bin\Debug\MapBuddy.KEYS.pdb

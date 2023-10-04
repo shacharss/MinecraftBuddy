@@ -1,0 +1,6 @@
+C:\Users\shach\source\repos\MinecraftBuddy\MapBuddy.KEYS\bin\Debug\MapBuddy.KEYS.dll
+C:\Users\shach\source\repos\MinecraftBuddy\MapBuddy.KEYS\bin\Debug\MapBuddy.KEYS.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\MapBuddy.KEYS\obj\Debug\MapBuddy.KEYS.csproj.AssemblyReference.cache
+C:\Users\shach\source\repos\MinecraftBuddy\MapBuddy.KEYS\obj\Debug\MapBuddy.KEYS.csproj.CoreCompileInputs.cache
+C:\Users\shach\source\repos\MinecraftBuddy\MapBuddy.KEYS\obj\Debug\MapBuddy.KEYS.dll
+C:\Users\shach\source\repos\MinecraftBuddy\MapBuddy.KEYS\obj\Debug\MapBuddy.KEYS.pdb

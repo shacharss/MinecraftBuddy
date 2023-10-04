@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using ForgeBuddy.GUI;
 using ResourceBuddy.GUI;
+using MapBuddy.GUI;
 
 namespace MinecraftBuddy.GUI
 {
@@ -75,6 +76,7 @@ namespace MinecraftBuddy.GUI
             m_MapBuddyButton.Top = m_WelcomeLabel.Bottom + 16;
             m_MapBuddyButton.Left = m_ShaderBuddyButton.Right + 25;
             m_MapBuddyButton.Width = 125;
+            m_MapBuddyButton.Click += launchMapBuddy;
             this.Controls.Add(m_MapBuddyButton);
         }
 
@@ -94,6 +96,13 @@ namespace MinecraftBuddy.GUI
             this.Show();
         }
 
+        private void launchMapBuddy(object sender, EventArgs e)
+        {
+            this.Hide();
+            MapMenuForm form = new MapMenuForm();
+            form.ShowDialog();
+            this.Show();
+        }
 
     }
 }

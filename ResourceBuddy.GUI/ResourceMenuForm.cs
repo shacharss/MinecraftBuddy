@@ -34,7 +34,7 @@ namespace ResourceBuddy.GUI
         public ResourceMenuForm()
         {
             initializeComponents();
-            this.Text = "ForgeBuddy";
+            this.Text = "ResourceBuddy";
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.ClientSize = new System.Drawing.Size(m_PickMinecraftVersionCombo.Right + 16, m_BackButton.Bottom + 8);
             this.StartPosition = FormStartPosition.CenterScreen;

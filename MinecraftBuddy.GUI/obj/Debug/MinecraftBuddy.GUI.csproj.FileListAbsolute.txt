@@ -27,3 +27,10 @@ C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\Resource
 C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ResourceBuddy.LOGIC.pdb
 C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ResourceBuddy.KEYS.dll
 C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ResourceBuddy.KEYS.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\MapBuddy.GUI.exe
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\MapBuddy.GUI.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\MapBuddy.GUI.exe.config
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\MapBuddy.LOGIC.dll
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\MapBuddy.KEYS.dll
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\MapBuddy.LOGIC.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\MapBuddy.KEYS.pdb
