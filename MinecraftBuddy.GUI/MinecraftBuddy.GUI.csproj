@@ -81,6 +81,10 @@
       <Project>{4f5d7436-5003-458a-8d62-1373863148f7}</Project>
       <Name>ForgeBuddy.GUI</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ResourceBuddy.GUI\ResourceBuddy.GUI.csproj">
+      <Project>{2b04f826-4dcf-4b55-b90d-65e300960a20}</Project>
+      <Name>ResourceBuddy.GUI</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

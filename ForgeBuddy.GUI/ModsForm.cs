@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ForgeBuddy.LOGIC;
-using ForgeBuddy.KEYS;
+using MinecraftBuddy.KEYS;
 
 namespace ForgeBuddy.GUI
 {

@@ -1,0 +1,9 @@
+C:\Users\shach\source\repos\MinecraftBuddy\ResourceBuddy.LOGIC\bin\Debug\ResourceBuddy.LOGIC.dll
+C:\Users\shach\source\repos\MinecraftBuddy\ResourceBuddy.LOGIC\bin\Debug\ResourceBuddy.LOGIC.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\ResourceBuddy.LOGIC\obj\Debug\ResourceBuddy.LOGIC.csproj.AssemblyReference.cache
+C:\Users\shach\source\repos\MinecraftBuddy\ResourceBuddy.LOGIC\obj\Debug\ResourceBuddy.LOGIC.csproj.CoreCompileInputs.cache
+C:\Users\shach\source\repos\MinecraftBuddy\ResourceBuddy.LOGIC\obj\Debug\ResourceBuddy.LOGIC.dll
+C:\Users\shach\source\repos\MinecraftBuddy\ResourceBuddy.LOGIC\obj\Debug\ResourceBuddy.LOGIC.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\ResourceBuddy.LOGIC\bin\Debug\ResourceBuddy.KEYS.dll
+C:\Users\shach\source\repos\MinecraftBuddy\ResourceBuddy.LOGIC\bin\Debug\ResourceBuddy.KEYS.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\ResourceBuddy.LOGIC\obj\Debug\ResourceBuddy.LOGIC.csproj.CopyComplete

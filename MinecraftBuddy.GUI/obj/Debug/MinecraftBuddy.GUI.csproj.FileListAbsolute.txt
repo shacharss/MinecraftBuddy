@@ -1,11 +1,9 @@
 C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\MinecraftBuddy.GUI.exe.config
 C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\MinecraftBuddy.GUI.exe
 C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\MinecraftBuddy.GUI.pdb
-C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ForgeBuddy.GUI.exe
 C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ForgeBuddy.LOGIC.dll
 C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ForgeBuddy.KEYS.dll
 C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ForgeBuddy.GUI.pdb
-C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ForgeBuddy.GUI.exe.config
 C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ForgeBuddy.LOGIC.pdb
 C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ForgeBuddy.LOGIC.dll.config
 C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ForgeBuddy.KEYS.pdb
@@ -18,3 +16,14 @@ C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\obj\Debug\Minecraf
 C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\obj\Debug\MinecraftBuddy.GUI.csproj.CopyComplete
 C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\obj\Debug\MinecraftBuddy.GUI.exe
 C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\obj\Debug\MinecraftBuddy.GUI.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ForgeBuddy.GUI.dll
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ResourceBuddy.GUI.dll
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ForgeBuddy.GUI.dll.config
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ResourceBuddy.GUI.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ResourceBuddy.GUI.dll.config
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\MinecraftBuddy.KEYS.dll
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\MinecraftBuddy.KEYS.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ResourceBuddy.LOGIC.dll
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ResourceBuddy.LOGIC.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ResourceBuddy.KEYS.dll
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ResourceBuddy.KEYS.pdb

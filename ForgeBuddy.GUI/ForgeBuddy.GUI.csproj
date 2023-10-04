@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{4F5D7436-5003-458A-8D62-1373863148F7}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Library</OutputType>
     <RootNamespace>ForgeBuddy.GUI</RootNamespace>
     <AssemblyName>ForgeBuddy.GUI</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -33,7 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ForgeBuddy.GUI.Program</StartupObject>
+    <StartupObject>
+    </StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -73,7 +74,6 @@
     <Compile Include="ForgeMenuForm.Designer.cs">
       <DependentUpon>ForgeMenuForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -105,6 +105,10 @@
     <ProjectReference Include="..\ForgeBuddy.LOGIC\ForgeBuddy.LOGIC.csproj">
       <Project>{8d928621-32c4-443e-a9e1-36a4d8d1df13}</Project>
       <Name>ForgeBuddy.LOGIC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MinecraftBuddy.KEYS\MinecraftBuddy.KEYS.csproj">
+      <Project>{f260b6d9-6305-4e8b-ad8c-1d632489780d}</Project>
+      <Name>MinecraftBuddy.KEYS</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

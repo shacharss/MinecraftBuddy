@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ForgeBuddy.GUI;
+using ResourceBuddy.GUI;
 
 namespace MinecraftBuddy.GUI
 {
@@ -57,11 +58,12 @@ namespace MinecraftBuddy.GUI
             m_ResourceBuddyButton.Top = m_WelcomeLabel.Bottom + 16;
             m_ResourceBuddyButton.Left = m_ForgeBuddyButton.Right + 25;
             m_ResourceBuddyButton.Width = 125;
+            m_ResourceBuddyButton.Click += launchResourceBuddy;
             this.Controls.Add(m_ResourceBuddyButton);
 
             // Initialize ShaderBuddy button
             m_ShaderBuddyButton = new Button();
-            m_ShaderBuddyButton.Text = "ResourceBuddy";
+            m_ShaderBuddyButton.Text = "ShaderBuddy";
             m_ShaderBuddyButton.Top = m_WelcomeLabel.Bottom + 16;
             m_ShaderBuddyButton.Left = m_ResourceBuddyButton.Right + 25;
             m_ShaderBuddyButton.Width = 125;
@@ -69,7 +71,7 @@ namespace MinecraftBuddy.GUI
 
             // Initialize MapBuddy button
             m_MapBuddyButton = new Button();
-            m_MapBuddyButton.Text = "ResourceBuddy";
+            m_MapBuddyButton.Text = "MapBuddy";
             m_MapBuddyButton.Top = m_WelcomeLabel.Bottom + 16;
             m_MapBuddyButton.Left = m_ShaderBuddyButton.Right + 25;
             m_MapBuddyButton.Width = 125;
@@ -84,7 +86,13 @@ namespace MinecraftBuddy.GUI
             this.Show();
         }
 
-
+        private void launchResourceBuddy(object sender, EventArgs e)
+        {
+            this.Hide();
+            ResourceMenuForm form = new ResourceMenuForm();
+            form.ShowDialog();
+            this.Show();
+        }
 
 
     }

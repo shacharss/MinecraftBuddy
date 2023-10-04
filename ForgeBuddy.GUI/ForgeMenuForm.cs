@@ -19,14 +19,14 @@ namespace ForgeBuddy.GUI
         // Buttons
         private Button m_CurseForgeButton;
         private Button m_ModsButton;
-        private Button m_FinishButton;
+        private Button m_BackButton;
 
         public ForgeMenuForm()
         {
             initializeComponents();
             this.Text = "ForgeBuddy";
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
-            this.ClientSize = new System.Drawing.Size(m_CurseForgeButton.Right + 16, m_FinishButton.Bottom + 8);
+            this.ClientSize = new System.Drawing.Size(m_CurseForgeButton.Right + 16, m_BackButton.Bottom + 8);
             this.StartPosition = FormStartPosition.CenterScreen;
             this.ShowInTaskbar = false;
         }
@@ -35,7 +35,7 @@ namespace ForgeBuddy.GUI
         {
             // Initialize CurseForge label
             m_CurseForgeLabel = new Label();
-            m_CurseForgeLabel.Text = "1. Install Forge: ";
+            m_CurseForgeLabel.Text = "1. Install Forge:";
             m_CurseForgeLabel.Top = 16;
             m_CurseForgeLabel.Left = 16;
             m_CurseForgeLabel.Width = 250;
@@ -67,13 +67,13 @@ namespace ForgeBuddy.GUI
             m_ModsButton.Click += m_ModsButton_Click;
             this.Controls.Add(m_ModsButton);
 
-            // Initialize Finish Button
-            m_FinishButton = new Button();
-            m_FinishButton.Text = "Back";
-            m_FinishButton.Top = m_ModsButton.Bottom + 16;
-            m_FinishButton.Left = m_ModsButton.Right - m_FinishButton.Width;
-            m_FinishButton.Click += m_CloseForm;
-            this.Controls.Add(m_FinishButton);
+            // Initialize Back Button
+            m_BackButton = new Button();
+            m_BackButton.Text = "Back";
+            m_BackButton.Top = m_ModsButton.Bottom + 16;
+            m_BackButton.Left = m_ModsButton.Right - m_BackButton.Width;
+            m_BackButton.Click += m_CloseForm;
+            this.Controls.Add(m_BackButton);
 
 
         }

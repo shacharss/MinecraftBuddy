@@ -1,10 +1,7 @@
 C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.GUI\obj\Debug\ForgeBuddy.GUI.csproj.AssemblyReference.cache
-C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.GUI\obj\Debug\ForgeBuddy.GUI.csproj.SuggestedBindingRedirects.cache
 C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.GUI\obj\Debug\ForgeBuddy.GUI.Properties.Resources.resources
 C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.GUI\obj\Debug\ForgeBuddy.GUI.csproj.GenerateResource.cache
 C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.GUI\obj\Debug\ForgeBuddy.GUI.csproj.CoreCompileInputs.cache
-C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.GUI\bin\Debug\ForgeBuddy.GUI.exe.config
-C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.GUI\bin\Debug\ForgeBuddy.GUI.exe
 C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.GUI\bin\Debug\ForgeBuddy.GUI.pdb
 C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.GUI\bin\Debug\ForgeBuddy.KEYS.dll
 C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.GUI\bin\Debug\ForgeBuddy.LOGIC.dll
@@ -13,5 +10,9 @@ C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.GUI\bin\Debug\ForgeBuddy.K
 C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.GUI\bin\Debug\ForgeBuddy.LOGIC.pdb
 C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.GUI\bin\Debug\ForgeBuddy.LOGIC.dll.config
 C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.GUI\obj\Debug\ForgeBuddy.GUI.csproj.CopyComplete
-C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.GUI\obj\Debug\ForgeBuddy.GUI.exe
 C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.GUI\obj\Debug\ForgeBuddy.GUI.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.GUI\bin\Debug\ForgeBuddy.GUI.dll.config
+C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.GUI\bin\Debug\ForgeBuddy.GUI.dll
+C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.GUI\obj\Debug\ForgeBuddy.GUI.dll
+C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.GUI\bin\Debug\MinecraftBuddy.KEYS.dll
+C:\Users\shach\source\repos\MinecraftBuddy\ForgeBuddy.GUI\bin\Debug\MinecraftBuddy.KEYS.pdb

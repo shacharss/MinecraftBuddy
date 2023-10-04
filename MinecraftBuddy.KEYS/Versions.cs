@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace ForgeBuddy.KEYS
+﻿namespace MinecraftBuddy.KEYS
 {
     public static class Versions
     {

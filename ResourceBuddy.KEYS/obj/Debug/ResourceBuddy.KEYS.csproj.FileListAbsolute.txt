@@ -1,0 +1,6 @@
+C:\Users\shach\source\repos\MinecraftBuddy\ResourceBuddy.KEYS\bin\Debug\ResourceBuddy.KEYS.dll
+C:\Users\shach\source\repos\MinecraftBuddy\ResourceBuddy.KEYS\bin\Debug\ResourceBuddy.KEYS.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\ResourceBuddy.KEYS\obj\Debug\ResourceBuddy.KEYS.csproj.AssemblyReference.cache
+C:\Users\shach\source\repos\MinecraftBuddy\ResourceBuddy.KEYS\obj\Debug\ResourceBuddy.KEYS.csproj.CoreCompileInputs.cache
+C:\Users\shach\source\repos\MinecraftBuddy\ResourceBuddy.KEYS\obj\Debug\ResourceBuddy.KEYS.dll
+C:\Users\shach\source\repos\MinecraftBuddy\ResourceBuddy.KEYS\obj\Debug\ResourceBuddy.KEYS.pdb
