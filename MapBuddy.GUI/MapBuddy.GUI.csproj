@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CategoriesForm.cs">
+    <Compile Include="MapCategoriesForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CategoriesForm.Designer.cs">
-      <DependentUpon>CategoriesForm.cs</DependentUpon>
+    <Compile Include="MapCategoriesForm.Designer.cs">
+      <DependentUpon>MapCategoriesForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MapMenuForm.cs">
       <SubType>Form</SubType>

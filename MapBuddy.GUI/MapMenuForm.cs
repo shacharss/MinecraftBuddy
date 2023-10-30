@@ -17,11 +17,11 @@ namespace MapBuddy.GUI
         // Variables
         private bool m_VersionPicked = false;
         private bool m_InformationReceived = false;
-        private bool[] m_ChosenCategories = new bool[7];
+        private bool[] m_ChosenMapCategories = new bool[7];
 
         // Labels
         private Label m_PickMinecraftVersionLabel;
-        private Label m_ChooseCategoriesLabel;
+        private Label m_ChooseMapCategoriesLabel;
         private Label m_ChooseMapPackLabel;
         private Label m_UploadMapPackLabel;
 
@@ -65,6 +65,7 @@ namespace MapBuddy.GUI
             m_PickMinecraftVersionCombo.IntegralHeight = false;
 
             m_PickMinecraftVersionCombo.SelectedValueChanged += updateChooseMapPackButtonText;
+            m_PickMinecraftVersionCombo.Items.Add(Versions.sr_AllVersion);
             foreach (string version in Versions.sr_ListMinecraftVersions)
             {
                 if (version != "1.7.10_pre4")
@@ -75,27 +76,27 @@ namespace MapBuddy.GUI
 
             this.Controls.Add(m_PickMinecraftVersionCombo);
 
-            // Initialize choose categories label
-            m_ChooseCategoriesLabel = new Label();
-            m_ChooseCategoriesLabel.Text = "1.5. Choose Map Categories:";
-            m_ChooseCategoriesLabel.Top = m_PickMinecraftVersionLabel.Bottom + 16;
-            m_ChooseCategoriesLabel.Left = 32;
-            m_ChooseCategoriesLabel.Width = 150;
-            this.Controls.Add(m_ChooseCategoriesLabel);
+            // Initialize choose map categories label
+            m_ChooseMapCategoriesLabel = new Label();
+            m_ChooseMapCategoriesLabel.Text = "1.5. Choose Map Categories:";
+            m_ChooseMapCategoriesLabel.Top = m_PickMinecraftVersionLabel.Bottom + 16;
+            m_ChooseMapCategoriesLabel.Left = 32;
+            m_ChooseMapCategoriesLabel.Width = 150;
+            this.Controls.Add(m_ChooseMapCategoriesLabel);
 
-            // Initialize choose categories button
+            // Initialize choose map categories button
             m_ChooseCategoriesButton = new Button();
             m_ChooseCategoriesButton.Text = "Choose Map Categories";
             m_ChooseCategoriesButton.Top = m_PickMinecraftVersionCombo.Bottom + 16;
             m_ChooseCategoriesButton.Left = m_PickMinecraftVersionCombo.Left;
             m_ChooseCategoriesButton.Width = 150;
-            m_ChooseCategoriesButton.Click += openCategoriesForm;
+            m_ChooseCategoriesButton.Click += openMapCategoriesForm;
             this.Controls.Add(m_ChooseCategoriesButton);
 
             // Initialize choose Map pack label
             m_ChooseMapPackLabel = new Label();
             m_ChooseMapPackLabel.Text = "2. Choose Map Pack:";
-            m_ChooseMapPackLabel.Top = m_ChooseCategoriesLabel.Bottom + 16;
+            m_ChooseMapPackLabel.Top = m_ChooseMapCategoriesLabel.Bottom + 16;
             m_ChooseMapPackLabel.Left = 16;
             m_ChooseMapPackLabel.Width = 150;
             this.Controls.Add(m_ChooseMapPackLabel);
@@ -142,12 +143,12 @@ namespace MapBuddy.GUI
             m_ChooseMapPackButton.Text = "Find " + m_PickMinecraftVersionCombo.SelectedItem as string + " Map packs";
         }
 
-        private void openCategoriesForm(object sender, EventArgs e)
+        private void openMapCategoriesForm(object sender, EventArgs e)
         {
-            CategoriesForm form = new CategoriesForm();
+            MapCategoriesForm form = new MapCategoriesForm(m_ChosenMapCategories);
             this.Hide();
             form.ShowDialog();
-            m_ChosenCategories = form.m_CheckedValues;
+            m_ChosenMapCategories = form.m_CheckedValues;
             this.Show();
         }
 
@@ -160,7 +161,7 @@ namespace MapBuddy.GUI
 
             else
             {
-                MapInstallation.MapPackSearch(m_PickMinecraftVersionCombo.SelectedItem as string, m_ChosenCategories);
+                MapInstallation.MapPackSearch(m_PickMinecraftVersionCombo.SelectedItem as string, m_ChosenMapCategories);
             }
         }
 

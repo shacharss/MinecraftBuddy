@@ -1,6 +1,6 @@
 ﻿namespace MapBuddy.GUI
 {
-    partial class CategoriesForm
+    partial class MapCategoriesForm
     {
         /// <summary>
         /// Required designer variable.

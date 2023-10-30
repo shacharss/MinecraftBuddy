@@ -16,8 +16,8 @@ namespace ForgeBuddy.GUI
     public partial class DownloadForm : Form
     {
         // Variables
-        private string m_MinecraftVersion;
-        private string m_ForgeVersion;
+        private readonly string r_MinecraftVersion;
+        private readonly string r_ForgeVersion;
         private WebClient m_Client = new WebClient();
 
         // Labels
@@ -28,15 +28,15 @@ namespace ForgeBuddy.GUI
 
         public DownloadForm(string io_MinecraftVersion, string io_ForgeVersion)
         {
-            m_MinecraftVersion = io_MinecraftVersion;
-            m_ForgeVersion = io_ForgeVersion;
+            r_MinecraftVersion = io_MinecraftVersion;
+            r_ForgeVersion = io_ForgeVersion;
             initializeComponents();
             this.Text = "Downloading...";
             this.FormBorderStyle = FormBorderStyle.FixedToolWindow;
             this.ClientSize = new System.Drawing.Size(m_ProgressBar.Right + 16, m_ProgressBar.Bottom + 16);
             this.StartPosition = FormStartPosition.CenterScreen;
             this.ShowInTaskbar = false;
-            ForgeInstallation.DownloadForgeVersion(m_MinecraftVersion, m_ForgeVersion, m_Client);
+            ForgeInstallation.DownloadForgeVersion(r_MinecraftVersion, r_ForgeVersion, m_Client);
             m_Client.DownloadProgressChanged += updateProgressBar;
             m_Client.DownloadFileCompleted += completeAndClose;
         }

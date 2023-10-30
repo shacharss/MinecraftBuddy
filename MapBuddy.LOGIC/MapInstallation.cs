@@ -11,26 +11,35 @@ namespace MapBuddy.LOGIC
 {
     public class MapInstallation
     {
-        public static void MapPackSearch(string i_Version, bool[] i_Categories)
+        public static void MapPackSearch(string i_Version, bool[] i_MapCategories)
         {
-            string[] categories = {"adventure", "creation", "game-map", "modded-world", "parkour", "puzzle", "survival"};
+            string[] mapCategories = {"adventure", "creation", "game-map", "modded-world", "parkour", "puzzle", "survival"};
 
             string pathBeforeVersion = "https://www.curseforge.com/minecraft/search?class=worlds&gameVersion=";
             string pathAfterVersion = "&page=1&pageSize=20&sortType=1";
-            string pathForCategories = "&categories=";
+            string pathForMapCategories = "&categories=";
 
             int i = 0;
-            foreach (bool b in i_Categories)
+            foreach (bool b in i_MapCategories)
             {
                 if (b)
                 {
-                    pathForCategories += categories[i] + "%2C";
+                    pathForMapCategories += mapCategories[i] + "%2C";
                 }
                 i += 1;
             }
 
-            string link = pathBeforeVersion + i_Version + pathAfterVersion + pathForCategories;
-            Process.Start(link);
+            if (i_Version.Equals("all"))
+            {
+                string pathBeforeMapCategories = "https://www.curseforge.com/minecraft/search?class=worlds&page=1&pageSize=20&sortType=1";
+                string link = pathBeforeMapCategories + pathForMapCategories;
+                Process.Start(link);
+            }
+            else
+            {
+                string link = pathBeforeVersion + i_Version + pathAfterVersion + pathForMapCategories;
+                Process.Start(link);
+            }
         }
 
         public static void UploadMapPack()

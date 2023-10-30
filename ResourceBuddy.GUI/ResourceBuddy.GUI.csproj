@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ResourceCategoriesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResourceCategoriesForm.Designer.cs">
+      <DependentUpon>ResourceCategoriesForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ResourceMenuForm.cs">
       <SubType>Form</SubType>
     </Compile>

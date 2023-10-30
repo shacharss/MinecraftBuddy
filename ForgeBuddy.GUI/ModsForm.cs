@@ -146,13 +146,20 @@ namespace ForgeBuddy.GUI
 
         private void moveMods(object sender, EventArgs e)
         {
-            if (!ModInstallation.MoveModsAndDeleteFolder())
+            if (m_SearchInstructionsReceived == false)
             {
-                MessageBox.Show("Error moving mods, is minecraft installed?", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Please search for mods first", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
-                MessageBox.Show("Success");
+                if (!ModInstallation.MoveMods())
+                {
+                    MessageBox.Show("Error moving mods, is minecraft installed?", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Success");
+                }
             }
         }
 

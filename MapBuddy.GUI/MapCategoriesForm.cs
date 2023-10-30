@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace MapBuddy.GUI
 {
-    public partial class CategoriesForm : Form
+    public partial class MapCategoriesForm : Form
     {
         // Variables
         private CheckBox[] m_Categories = new CheckBox[7];
@@ -28,7 +28,7 @@ namespace MapBuddy.GUI
         // Buttons
         private Button m_DoneButton;
 
-        public CategoriesForm()
+        public MapCategoriesForm(bool[] i_PreCheckedValues)
         {
             initializeComponents();
             this.Text = "Choose Categories";
@@ -36,6 +36,16 @@ namespace MapBuddy.GUI
             this.ClientSize = new System.Drawing.Size(m_ModdedWorldCheckBox.Right + 16, m_DoneButton.Bottom + 8);
             this.StartPosition = FormStartPosition.CenterScreen;
             this.ShowInTaskbar = false;
+
+
+            for (int i = 0; i < i_PreCheckedValues.Length; i++)
+            {
+                m_CheckedValues[i] = i_PreCheckedValues[i];
+                if (i_PreCheckedValues[i] == true)
+                {
+                    m_Categories[i].Checked = true;
+                }
+            }
         }
 
         private void initializeComponents()

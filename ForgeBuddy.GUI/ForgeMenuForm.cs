@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ForgeBuddy.LOGIC;
 
 namespace ForgeBuddy.GUI
 {
@@ -91,6 +92,7 @@ namespace ForgeBuddy.GUI
             this.Hide();
             ModsForm form = new ModsForm();
             form.ShowDialog();
+            ModInstallation.DeleteFolder();
             this.Show();
         }
 

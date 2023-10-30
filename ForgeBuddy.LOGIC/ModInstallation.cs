@@ -28,7 +28,7 @@ namespace ForgeBuddy.LOGIC
             Process.Start(link);
         }
 
-        public static bool MoveModsAndDeleteFolder()
+        public static bool MoveMods()
         {
             string appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
             string minecraftPath = appDataPath + @"\.minecraft";
@@ -44,9 +44,21 @@ namespace ForgeBuddy.LOGIC
                 File.Copy(file, Path.Combine(minecraftPath + @"\mods", Path.GetFileName(file)));
             }
 
-            Directory.Delete(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\Place Mods Here", true);
 
             return true;
+        }
+
+        public static void DeleteFolder()
+        {
+            try
+            {
+                Directory.Delete(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\Place Mods Here", true);
+
+            }
+            catch (Exception) 
+            {
+                // If folder doesn't exist, doesn't matter
+            }
         }
     }
 }

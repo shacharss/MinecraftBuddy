@@ -17,13 +17,16 @@ namespace ResourceBuddy.GUI
         // Variables
         private bool m_VersionPicked = false;
         private bool m_InformationReceived = false;
+        private bool[] m_ChosenResourceCategories = new bool[16];
 
         // Labels
         private Label m_PickMinecraftVersionLabel;
+        private Label m_ChooseResourceCategoriesLabel;
         private Label m_ChooseResourcePackLabel;
         private Label m_UploadResourcePackLabel;
 
         // Buttons
+        private Button m_ChooseResourceCategoriesButton;
         private Button m_ChooseResourcePackButton;
         private Button m_UploadResourcePackButton;
         private Button m_BackButton;
@@ -56,12 +59,13 @@ namespace ResourceBuddy.GUI
             m_PickMinecraftVersionCombo.Text = "Pick Minecraft version";
             m_PickMinecraftVersionCombo.Left = m_PickMinecraftVersionLabel.Right + 32;
             m_PickMinecraftVersionCombo.Top = m_PickMinecraftVersionLabel.Top - (int)(0.25 * m_PickMinecraftVersionLabel.Height);
-            m_PickMinecraftVersionCombo.Width = 150;
+            m_PickMinecraftVersionCombo.Width = 200;
             m_PickMinecraftVersionCombo.MaxLength = 11;
             m_PickMinecraftVersionCombo.MaxDropDownItems = 7;
             m_PickMinecraftVersionCombo.IntegralHeight = false;
 
             m_PickMinecraftVersionCombo.SelectedValueChanged += updateChooseResourcePackButtonText;
+            m_PickMinecraftVersionCombo.Items.Add(Versions.sr_AllVersion);
             foreach (string version in Versions.sr_ListMinecraftVersions)
             {
                 if (version != "1.7.10_pre4")
@@ -72,10 +76,27 @@ namespace ResourceBuddy.GUI
 
             this.Controls.Add(m_PickMinecraftVersionCombo);
 
+            // Initialize choose resource categories label
+            m_ChooseResourceCategoriesLabel = new Label();
+            m_ChooseResourceCategoriesLabel.Text = "1.5. Choose Resource Pack Categories";
+            m_ChooseResourceCategoriesLabel.Top = m_PickMinecraftVersionLabel.Bottom + 16;
+            m_ChooseResourceCategoriesLabel.Left = 32;
+            m_ChooseResourceCategoriesLabel.Width = 150;
+            this.Controls.Add(m_ChooseResourceCategoriesLabel);
+
+            // Intialize choose resource categories button
+            m_ChooseResourceCategoriesButton = new Button();
+            m_ChooseResourceCategoriesButton.Text = "Choose Resource Pack Categories";
+            m_ChooseResourceCategoriesButton.Top = m_PickMinecraftVersionCombo.Bottom + 16;
+            m_ChooseResourceCategoriesButton.Left = m_PickMinecraftVersionCombo.Left;
+            m_ChooseResourceCategoriesButton.Width = 200;
+            m_ChooseResourceCategoriesButton.Click += openResourcePackCategoriesForm;
+            this.Controls.Add(m_ChooseResourceCategoriesButton);
+
             // Initialize choose resource pack label
             m_ChooseResourcePackLabel = new Label();
             m_ChooseResourcePackLabel.Text = "2. Choose Resource Pack:";
-            m_ChooseResourcePackLabel.Top = m_PickMinecraftVersionLabel.Bottom + 16;
+            m_ChooseResourcePackLabel.Top = m_ChooseResourceCategoriesLabel.Bottom + 16;
             m_ChooseResourcePackLabel.Left = 16;
             m_ChooseResourcePackLabel.Width = 150;
             this.Controls.Add(m_ChooseResourcePackLabel);
@@ -83,9 +104,9 @@ namespace ResourceBuddy.GUI
             // Initialize choose resource pack button
             m_ChooseResourcePackButton = new Button();
             m_ChooseResourcePackButton.Text = "Find resource packs";
-            m_ChooseResourcePackButton.Top = m_PickMinecraftVersionCombo.Bottom + 16;
+            m_ChooseResourcePackButton.Top = m_ChooseResourceCategoriesButton.Bottom + 16;
             m_ChooseResourcePackButton.Left = m_ChooseResourcePackLabel.Right + 32;
-            m_ChooseResourcePackButton.Width = 150;
+            m_ChooseResourcePackButton.Width = 200;
             m_ChooseResourcePackButton.Click += searchResourcePacks;
             this.Controls.Add(m_ChooseResourcePackButton);
 
@@ -102,7 +123,7 @@ namespace ResourceBuddy.GUI
             m_UploadResourcePackButton.Text = "Upload resource pack";
             m_UploadResourcePackButton.Top = m_ChooseResourcePackButton.Bottom + 16;
             m_UploadResourcePackButton.Left = m_UploadResourcePackLabel.Right + 32;
-            m_UploadResourcePackButton.Width = 150;
+            m_UploadResourcePackButton.Width = 200;
             m_UploadResourcePackButton.Click += uploadResourcePacks;
             this.Controls.Add(m_UploadResourcePackButton);
 
@@ -122,6 +143,15 @@ namespace ResourceBuddy.GUI
             m_ChooseResourcePackButton.Text = "Find " + m_PickMinecraftVersionCombo.SelectedItem as string + " resource packs";
         }
 
+        private void openResourcePackCategoriesForm(object sender, EventArgs e)
+        {
+            ResourceCategoriesForm form = new ResourceCategoriesForm(m_ChosenResourceCategories);
+            this.Hide();
+            form.ShowDialog();
+            m_ChosenResourceCategories = form.m_CheckedValues;
+            this.Show();
+        }
+
         private void searchResourcePacks(object sender, EventArgs e)
         {
             if (m_VersionPicked == false)
@@ -131,7 +161,7 @@ namespace ResourceBuddy.GUI
 
             else
             {
-                ResourceInstallation.ResourcePackSearch(m_PickMinecraftVersionCombo.SelectedItem as string);
+                ResourceInstallation.ResourcePackSearch(m_PickMinecraftVersionCombo.SelectedItem as string, m_ChosenResourceCategories);
             }
         }
 
