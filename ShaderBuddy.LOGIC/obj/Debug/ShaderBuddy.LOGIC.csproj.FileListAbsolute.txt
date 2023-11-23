@@ -1,0 +1,12 @@
+C:\Users\shach\source\repos\MinecraftBuddy\ShaderBuddy.LOGIC\obj\Debug\ShaderBuddy.LOGIC.csproj.AssemblyReference.cache
+C:\Users\shach\source\repos\MinecraftBuddy\ShaderBuddy.LOGIC\obj\Debug\ShaderBuddy.LOGIC.csproj.CoreCompileInputs.cache
+C:\Users\shach\source\repos\MinecraftBuddy\ShaderBuddy.LOGIC\bin\Debug\ShaderBuddy.LOGIC.dll
+C:\Users\shach\source\repos\MinecraftBuddy\ShaderBuddy.LOGIC\bin\Debug\ShaderBuddy.LOGIC.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\ShaderBuddy.LOGIC\obj\Debug\ShaderBuddy.LOGIC.dll
+C:\Users\shach\source\repos\MinecraftBuddy\ShaderBuddy.LOGIC\obj\Debug\ShaderBuddy.LOGIC.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\ShaderBuddy.LOGIC\bin\Debug\ShaderBuddy.KEYS.dll
+C:\Users\shach\source\repos\MinecraftBuddy\ShaderBuddy.LOGIC\bin\Debug\ShaderBuddy.KEYS.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\ShaderBuddy.LOGIC\obj\Debug\ShaderBuddy.LOGIC.csproj.CopyComplete
+C:\Users\shach\source\repos\MinecraftBuddy\ShaderBuddy.LOGIC\bin\Debug\HtmlAgilityPack.dll
+C:\Users\shach\source\repos\MinecraftBuddy\ShaderBuddy.LOGIC\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\ShaderBuddy.LOGIC\bin\Debug\HtmlAgilityPack.xml

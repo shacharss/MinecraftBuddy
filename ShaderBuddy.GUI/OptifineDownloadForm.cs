@@ -7,17 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using ForgeBuddy.LOGIC;
+using ShaderBuddy.LOGIC;
 using System.Net;
 using System.Threading;
 
-namespace ForgeBuddy.GUI
+namespace ShaderBuddy.GUI
 {
-    public partial class DownloadForm : Form
+    public partial class OptifineDownloadForm : Form
     {
         // Variables
         private readonly string r_MinecraftVersion;
-        private readonly string r_ForgeVersion;
         private WebClient m_Client = new WebClient();
 
         // Labels
@@ -26,17 +25,16 @@ namespace ForgeBuddy.GUI
         // Progress bars
         private ProgressBar m_ProgressBar;
 
-        public DownloadForm(string io_MinecraftVersion, string io_ForgeVersion)
+        public OptifineDownloadForm(string io_MinecraftVersion)
         {
             r_MinecraftVersion = io_MinecraftVersion;
-            r_ForgeVersion = io_ForgeVersion;
             initializeComponents();
             this.Text = "Downloading...";
             this.FormBorderStyle = FormBorderStyle.FixedToolWindow;
             this.ClientSize = new System.Drawing.Size(m_ProgressBar.Right + 16, m_ProgressBar.Bottom + 16);
             this.StartPosition = FormStartPosition.CenterScreen;
             this.ShowInTaskbar = false;
-            ForgeInstallation.DownloadForgeVersion(r_MinecraftVersion, r_ForgeVersion, m_Client);
+            OptifineInstallation.DownloadOptifineVersion(r_MinecraftVersion, m_Client);
             m_Client.DownloadProgressChanged += updateProgressBar;
             m_Client.DownloadFileCompleted += completeAndClose;
         }

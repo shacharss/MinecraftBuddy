@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using ForgeBuddy.GUI;
 using ResourceBuddy.GUI;
 using MapBuddy.GUI;
+using ShaderBuddy.GUI;
 
 namespace MinecraftBuddy.GUI
 {
@@ -43,7 +44,7 @@ namespace MinecraftBuddy.GUI
             m_WelcomeLabel.Top = 16;
             m_WelcomeLabel.Left = 166;
             this.Controls.Add(m_WelcomeLabel);
-        
+
             // Initialize ForgeBuddy button
             m_ForgeBuddyButton = new Button();
             m_ForgeBuddyButton.Text = "ForgeBuddy";
@@ -68,6 +69,7 @@ namespace MinecraftBuddy.GUI
             m_ShaderBuddyButton.Top = m_WelcomeLabel.Bottom + 16;
             m_ShaderBuddyButton.Left = m_ResourceBuddyButton.Right + 25;
             m_ShaderBuddyButton.Width = 125;
+            m_ShaderBuddyButton.Click += launchShaderBuddy;
             this.Controls.Add(m_ShaderBuddyButton);
 
             // Initialize MapBuddy button
@@ -100,6 +102,14 @@ namespace MinecraftBuddy.GUI
         {
             this.Hide();
             MapMenuForm form = new MapMenuForm();
+            form.ShowDialog();
+            this.Show();
+        }
+
+        private void launchShaderBuddy(object sender, EventArgs e)
+        {
+            this.Hide();
+            ShaderMenuForm form = new ShaderMenuForm();
             form.ShowDialog();
             this.Show();
         }

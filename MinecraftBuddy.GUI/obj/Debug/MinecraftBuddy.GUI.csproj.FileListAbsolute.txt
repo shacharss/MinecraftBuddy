@@ -34,3 +34,13 @@ C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\MapBuddy
 C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\MapBuddy.KEYS.dll
 C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\MapBuddy.LOGIC.pdb
 C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\MapBuddy.KEYS.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ShaderBuddy.GUI.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ShaderBuddy.GUI.dll
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ShaderBuddy.LOGIC.dll
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ShaderBuddy.GUI.dll.config
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ShaderBuddy.LOGIC.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ShaderBuddy.KEYS.dll
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\ShaderBuddy.KEYS.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\HtmlAgilityPack.dll
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\MinecraftBuddy.GUI\bin\Debug\HtmlAgilityPack.xml

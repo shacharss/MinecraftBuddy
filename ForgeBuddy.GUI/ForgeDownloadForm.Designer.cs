@@ -1,6 +1,6 @@
 ﻿namespace ForgeBuddy.GUI
 {
-    partial class DownloadForm
+    partial class ForgeDownloadForm
     {
         /// <summary>
         /// Required designer variable.

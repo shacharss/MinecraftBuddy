@@ -89,6 +89,10 @@
       <Project>{2b04f826-4dcf-4b55-b90d-65e300960a20}</Project>
       <Name>ResourceBuddy.GUI</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ShaderBuddy.GUI\ShaderBuddy.GUI.csproj">
+      <Project>{51e2eaec-e64b-4a6b-a2ed-ff4451d32d6a}</Project>
+      <Name>ShaderBuddy.GUI</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

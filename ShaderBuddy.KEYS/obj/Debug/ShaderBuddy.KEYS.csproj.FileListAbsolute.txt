@@ -1,0 +1,6 @@
+C:\Users\shach\source\repos\MinecraftBuddy\ShaderBuddy.KEYS\bin\Debug\ShaderBuddy.KEYS.dll
+C:\Users\shach\source\repos\MinecraftBuddy\ShaderBuddy.KEYS\bin\Debug\ShaderBuddy.KEYS.pdb
+C:\Users\shach\source\repos\MinecraftBuddy\ShaderBuddy.KEYS\obj\Debug\ShaderBuddy.KEYS.csproj.AssemblyReference.cache
+C:\Users\shach\source\repos\MinecraftBuddy\ShaderBuddy.KEYS\obj\Debug\ShaderBuddy.KEYS.csproj.CoreCompileInputs.cache
+C:\Users\shach\source\repos\MinecraftBuddy\ShaderBuddy.KEYS\obj\Debug\ShaderBuddy.KEYS.dll
+C:\Users\shach\source\repos\MinecraftBuddy\ShaderBuddy.KEYS\obj\Debug\ShaderBuddy.KEYS.pdb

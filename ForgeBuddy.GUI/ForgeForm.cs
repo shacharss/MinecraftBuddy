@@ -154,7 +154,7 @@ namespace ForgeBuddy.GUI
             }
             else
             {
-                DownloadForm download = new DownloadForm(minecraftVersion, forgeVersion);
+                ForgeDownloadForm download = new ForgeDownloadForm(minecraftVersion, forgeVersion);
                 download.ShowDialog();
                 m_DownloadCompleted = true;
             }
