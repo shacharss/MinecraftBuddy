@@ -86,7 +86,10 @@ namespace ShaderBuddy.GUI
 
         private void m_ShadersButton_Click(object sender, EventArgs e)
         {
-            //
+            this.Hide();
+            ShaderForm form = new ShaderForm();
+            form.ShowDialog();
+            this.Show();
         }
 
         private void m_CloseForm(object sender, EventArgs e)

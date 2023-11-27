@@ -49,6 +49,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ShaderCategoriesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShaderCategoriesForm.Designer.cs">
+      <DependentUpon>ShaderCategoriesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShaderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShaderForm.Designer.cs">
+      <DependentUpon>ShaderForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="OptifineDownloadForm.cs">
       <SubType>Form</SubType>
     </Compile>
